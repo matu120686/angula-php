@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AgregarEmpleadoComponent } from './componentes/agregar-empleado/agregar-empleado.component';
 import { EditarEmpleadoComponent } from './componentes/editar-empleado/editar-empleado.component';
 import { ListarEmpleadoComponent } from './componentes/listar-empleado/listar-empleado.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ListarEmpleadoComponent } from './componentes/listar-empleado/listar-em
     ListarEmpleadoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
